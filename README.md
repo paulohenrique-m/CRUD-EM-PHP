@@ -14,20 +14,21 @@ Repositório para criação de um cadastro de usuários utilizando PHP e banco S
 ### 3. Acessando o Sistema no Navegador
 - Com seu Servidor Apache ligado, abra o seu navegador e digite o seguinte endereço: `http://localhost/nome_da_sua_pasta`, substituindo `nome_da_sua_pasta` pelo nome da pasta onde você colocou o sistema.
 - Por exemplo, se você colocou o sistema na pasta `CRUD_cadastro_php`, o endereço será `http://localhost/CRUD_cadastro_php`.
+- Por fim, utilize o index.php para utilizar do sistema, resultando em uma url igual a `http://localhost/CRUD_cadastro_php/index.php`
 
 ### 4. Utilizando o Sistema
 
 - Ao acessar o sistema, você verá a página inicial com os formulários de cadastro e a lista de usuários.
 - Para adicionar um novo usuário, preencha os campos "Nome" e "Email" no formulário e clique em "Enviar".
 - Para editar um usuário, clique no link "Editar" ao lado do usuário que deseja editar. Isso abrirá um modal com os dados do usuário, onde você poderá fazer as alterações e salvar.
-- Para excluir um usuário, clique no ícone da lixeira ao lado do usuário que deseja excluir.
+- Para excluir um usuário, clique no link "Excluir" ao lado do usuário que deseja excluir.
 
 ### 5. Encerrando o Uso
 
 - Para encerrar o uso, feche o navegador e pare o servidor Apache no painel de controle do XAMPP.
 
 ### Utilizando CRUD
-- Para utilizar o crud sem o banco de dados que esta na pasta CRUD_without_sql, apenas siga os passos citados e utilize a url com index.php, citado no item 3
+- Para utilizar o crud sem o banco de dados que esta na pasta CRUD_without_sql, apenas siga os passos 
 - Se for utilizar o crud da pasta com banco de dados, precisa de uma tabela nomeada tb_usuario com 3 colunas: id, nome e email alem de alterar no codigo fonte a linha "$pdo = new PDO('mysql:host=localhost;dbname=database','root','senha_do_seu_banco');" colocando os dados do banco local
 
 ### Sobre Banco de dados
