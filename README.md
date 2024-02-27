@@ -27,7 +27,7 @@ Repositório para criação de um cadastro de usuários utilizando PHP e banco S
 - Para encerrar o uso, feche o navegador e pare o servidor Apache no painel de controle do XAMPP.
 
 ### Utilizando CRUD
-- Para utilizar o crud sem o banco de dados que esta na pasta CRUD_without_sql, apenas siga os passos
+- Para utilizar o crud sem o banco de dados que esta na pasta CRUD_without_sql, apenas siga os passos citados e utilize a url com index.php, citado no item 3
 - Se for utilizar o crud da pasta com banco de dados, precisa de uma tabela nomeada tb_usuario com 3 colunas: id, nome e email alem de alterar no codigo fonte a linha "$pdo = new PDO('mysql:host=localhost;dbname=database','root','senha_do_seu_banco');" colocando os dados do banco local
 
 ### Sobre Banco de dados
