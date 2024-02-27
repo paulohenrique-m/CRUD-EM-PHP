@@ -9,7 +9,7 @@ Repositório para criação de um cadastro de usuários utilizando PHP e banco S
 
 ### 2. Colocando a Pasta no Diretório do XAMPP
 
-- Após a instalação, baixe os arquivos do github e escolhe uma das duas opções e logo apos coloque a pasta do sistema CRUD dentro do diretório `htdocs` do XAMPP. Por padrão, o diretório `htdocs` está localizado em `C:\xampp\htdocs` no Windows e `/Applications/XAMPP/htdocs` no macOS.
+- Após a instalação, baixe os arquivos do github e escolha uma das duas opções e logo após coloque a pasta do sistema CRUD dentro do diretório `htdocs` do XAMPP. Por padrão, o diretório `htdocs` está localizado em `C:\xampp\htdocs` no Windows e `/Applications/XAMPP/htdocs` no macOS.
 
 ### 3. Acessando o Sistema no Navegador
 - Com seu Servidor Apache ligado, abra o seu navegador e digite o seguinte endereço: `http://localhost/nome_da_sua_pasta`, substituindo `nome_da_sua_pasta` pelo nome da pasta onde você colocou o sistema.
@@ -28,11 +28,11 @@ Repositório para criação de um cadastro de usuários utilizando PHP e banco S
 
 ### Utilizando CRUD
 - Para utilizar o crud sem o banco de dados que esta na pasta CRUD_without_sql, apenas siga os passos
-- Se for utilizar o crud da pasta com banco de dados, precisa de uma tabela nomeada tb_usuario com 3 colunas: id, nome e email alem de alterar no codigo fonte a linha $pdo = new PDO('mysql:host=localhost;dbname=database','root','senha_do_seu_banco'); colocando os dados do banco local
+- Se for utilizar o crud da pasta com banco de dados, precisa de uma tabela nomeada tb_usuario com 3 colunas: id, nome e email alem de alterar no codigo fonte a linha "$pdo = new PDO('mysql:host=localhost;dbname=database','root','senha_do_seu_banco');" colocando os dados do banco local
 
 ### Sobre Banco de dados
 - Utilizado neste projeto foi MySQL
-- Tabela nomeada de tb_usuario com as seguintes chaves: 
-    - id, sendo int e autoincrementada
-    - nome, sendo varchar
-    - email, sendo varchar
+- Tabela nomeada de "tb_usuario" com as seguintes chaves: 
+    - "id", sendo int e autoincrementada
+    - "nome", sendo varchar
+    - "email", sendo varchar
